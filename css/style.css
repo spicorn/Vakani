@@ -1,3 +1,7 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
 /********** Template CSS **********/
 :root {
   --primary: #06a3da;
@@ -225,6 +229,10 @@ h6,
 }
 
 /*** Carousel ***/
+.carousel-item {
+  height: 45rem;
+}
+
 .carousel-caption {
   top: 0;
   left: 0;
